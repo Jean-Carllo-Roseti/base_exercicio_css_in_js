@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components' /*acredito q tenha um possivel problema na utilização de hover, acredito q o hover do
+"VagaLink" deveria acontecer ao mesmo tempo em que o hover do "Vagas"*/
 
 export const Vagas = styled.li`
   border: 1px solid var(--cor-principal);
