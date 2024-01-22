@@ -15,18 +15,15 @@ export const HeroForm = styled.form`
 
 `
 
-export const OverHeroForm = styled.form`
+export const OverHero = styled.div`
   position: absolute;
-
-  &::before {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--cor-principal);
-    content: '';
-    opacity: 0.7;
-  }
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--cor-principal);
+  content: '';
+  opacity: 0.7;
 `
 
 export const HeroDivForm = styled.div`
